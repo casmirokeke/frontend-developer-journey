@@ -49,7 +49,7 @@ The purpose is simple:
 |---|---|---|
 | 01 | Personal Bio Page | Completed |
 | 02 | Accessible Registration Form | Completed |
-| 03 | Recipe Page | ⏳ Upcoming |
+| 03 | Recipe Page | Completed |
 | 04 | Comparison Table | ⏳ Upcoming |
 | 05 | Documentation Layout | ⏳ Upcoming |
 | 06 | E-Commerce Product Page | ⏳ Upcoming |
