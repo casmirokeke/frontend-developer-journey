@@ -3,67 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Bio</title>
+  <title>Accessible Registration Form</title>
 </head>
 
 <body>
 
-  <header>
-    <h1>Hi, I'm Casmir</h1>
-    <p>Frontend Developer in progress 🚀</p>
-  </header>
-
   <main>
+    <h1>Create Your Account</h1>
+    <p>Fill in the form below to create your account.</p>
 
-    <section>
-      <h2>About Me</h2>
+    <form action="#" method="post">
 
-      <img 
-        src="profile.jpg" 
-        alt="Portrait of Casmir, a frontend developer"
-        width="200"
-      >
+      <fieldset>
+        <legend>Personal Information</legend>
 
-      <p>
-        I'm a frontend developer passionate about creating clean,
-        responsive, and user-friendly websites.
-      </p>
+        <div>
+          <label for="full-name">Full Name</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full-name"
+            autocomplete="name"
+            required
+          >
+        </div>
 
-      <p>
-        I'm currently improving my skills in HTML, CSS, and JavaScript
-        while working toward becoming a professional frontend developer.
-      </p>
-    </section>
+        <br>
 
-    <section>
-      <h2>My Skills</h2>
+        <div>
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+            aria-describedby="email-help"
+          >
 
-      <h3>Currently Learning</h3>
+          <small id="email-help">
+            We'll use this email to contact you about your account.
+          </small>
+        </div>
 
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Responsive Web Design</li>
-      </ul>
-    </section>
+        <br>
 
-    <section>
-      <h2>My Goals</h2>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10,15}"
+            aria-describedby="phone-help"
+          >
 
-      <ol>
-        <li>Master HTML, CSS, and JavaScript</li>
-        <li>Learn React</li>
-        <li>Build real-world projects</li>
-        <li>Become a professional frontend developer</li>
-      </ol>
-    </section>
+          <small id="phone-help">
+            Enter 10 to 15 digits without spaces.
+          </small>
+        </div>
 
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Account Information</legend>
+
+        <div>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            minlength="3"
+            maxlength="20"
+            required
+            aria-describedby="username-help"
+          >
+
+          <small id="username-help">
+            Username must contain between 3 and 20 characters.
+          </small>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            required
+            aria-describedby="password-help"
+          >
+
+          <small id="password-help">
+            Password must contain at least 8 characters.
+          </small>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="country">Country</label>
+
+          <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="kenya">Kenya</option>
+            <option value="south-africa">South Africa</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="usa">United States</option>
+          </select>
+        </div>
+
+      </fieldset>
+
+      <br>
+
+      <div>
+        <input
+          type="checkbox"
+          id="terms"
+          name="terms"
+          required
+        >
+
+        <label for="terms">
+          I agree to the terms and conditions.
+        </label>
+      </div>
+
+      <br>
+
+      <button type="submit">Create Account</button>
+
+    </form>
   </main>
-
-  <footer>
-    <p>&copy; 2026 Casmir Codes. All rights reserved.</p>
-  </footer>
 
 </body>
 </html>

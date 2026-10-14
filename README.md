@@ -47,8 +47,8 @@ The purpose is simple:
 
 | # | Project | Status |
 |---|---|---|
-| 01 | Personal Bio Page | ⏳ Upcoming |
-| 02 | Accessible Registration Form | ⏳ Upcoming |
+| 01 | Personal Bio Page | Completed |
+| 02 | Accessible Registration Form | Completed |
 | 03 | Recipe Page | ⏳ Upcoming |
 | 04 | Comparison Table | ⏳ Upcoming |
 | 05 | Documentation Layout | ⏳ Upcoming |
