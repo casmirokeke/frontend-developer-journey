@@ -50,8 +50,8 @@ The purpose is simple:
 | 01 | Personal Bio Page | Completed |
 | 02 | Accessible Registration Form | Completed |
 | 03 | Recipe Page | Completed |
-| 04 | Comparison Table | ⏳ Upcoming |
-| 05 | Documentation Layout | ⏳ Upcoming |
+| 04 | Comparison Table | Completed |
+| 05 | Documentation Layout | Completed |
 | 06 | E-Commerce Product Page | ⏳ Upcoming |
 | 07 | Event Timetable | ⏳ Upcoming |
 | 08 | Media Page | ⏳ Upcoming |
@@ -162,9 +162,9 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**4 / 30**
+**5 / 30**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`░░░░░░░░░░░░░░░░░░░`
 
 ### CSS
 
