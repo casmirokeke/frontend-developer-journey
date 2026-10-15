@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**0 / 30**
+**4 / 30**
 
 `░░░░░░░░░░░░░░░░░░░░`
 
