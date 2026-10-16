@@ -54,7 +54,7 @@ The purpose is simple:
 | 05 | Documentation Layout | Completed |
 | 06 | E-Commerce Product Page | Completed |
 | 07 | Event Timetable | Completed |
-| 08 | Media Page | ⏳ Upcoming |
+| 08 | Media Page | Completed |
 | 09 | Survey Portal | ⏳ Upcoming |
 | 10 | Portfolio Outline | ⏳ Upcoming |
 | 11 | Conference Landing Page | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**7 / 30**
+**8 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**7 / 90 projects completed**
+**8 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
