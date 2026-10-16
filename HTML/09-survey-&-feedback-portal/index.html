@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Casmir Codes Survey and Feedback Portal"
+    >
+
+    <title>Survey & Feedback Portal | Casmir Codes</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Casmir Codes</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="#survey">Survey</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="survey">
+            <header>
+                <h2>Survey & Feedback Portal</h2>
+
+                <p>
+                    Your feedback helps us improve our content,
+                    projects, and learning experience.
+                </p>
+            </header>
+
+            <form action="#" method="post">
+
+                <!-- Personal Information -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="visit-date">Date of Feedback:</label><br>
+                        <input
+                            type="date"
+                            id="visit-date"
+                            name="visit-date"
+                            required
+                        >
+                    </p>
+                </fieldset>
+
+                <!-- Experience -->
+                <fieldset>
+                    <legend>Your Experience</legend>
+
+                    <p>
+                        <strong>How would you rate your overall experience?</strong>
+                    </p>
+
+                    <p>
+                        <label for="rating">
+                            Rating:
+                            <output id="rating-value">5</output>/10
+                        </label>
+                    </p>
+
+                    <input
+                        type="range"
+                        id="rating"
+                        name="rating"
+                        min="1"
+                        max="10"
+                        value="5"
+                        step="1"
+                        oninput="ratingValue.value = this.value"
+                    >
+                </fieldset>
+
+                <!-- Satisfaction -->
+                <fieldset>
+                    <legend>Satisfaction Level</legend>
+
+                    <p>
+                        How satisfied are you with the content?
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="very-satisfied"
+                            name="satisfaction"
+                            value="very-satisfied"
+                            required
+                        >
+                        <label for="very-satisfied">
+                            Very Satisfied
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="satisfied"
+                            name="satisfaction"
+                            value="satisfied"
+                        >
+                        <label for="satisfied">
+                            Satisfied
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="neutral"
+                            name="satisfaction"
+                            value="neutral"
+                        >
+                        <label for="neutral">
+                            Neutral
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="unsatisfied"
+                            name="satisfaction"
+                            value="unsatisfied"
+                        >
+                        <label for="unsatisfied">
+                            Unsatisfied
+                        </label>
+                    </p>
+                </fieldset>
+
+                <!-- Content Feedback -->
+                <fieldset>
+                    <legend>Content Feedback</legend>
+
+                    <p>
+                        <label for="favorite">
+                            What type of content do you enjoy most?
+                        </label><br>
+
+                        <select id="favorite" name="favorite" required>
+                            <option value="">Select an option</option>
+                            <option value="tutorials">
+                                HTML/CSS Tutorials
+                            </option>
+                            <option value="javascript">
+                                JavaScript Tutorials
+                            </option>
+                            <option value="projects">
+                                Project Builds
+                            </option>
+                            <option value="tips">
+                                Coding Tips
+                            </option>
+                            <option value="career">
+                                Career Advice
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="comments">
+                            What can we improve?
+                        </label><br>
+
+                        <textarea
+                            id="comments"
+                            name="comments"
+                            rows="6"
+                            cols="50"
+                            placeholder="Share your thoughts..."
+                            maxlength="500"
+                            required
+                        ></textarea>
+                    </p>
+                </fieldset>
+
+                <!-- Additional Preferences -->
+                <fieldset>
+                    <legend>Additional Preferences</legend>
+
+                    <p>
+                        <label for="favorite-color">
+                            Choose your preferred theme color:
+                        </label><br>
+
+                        <input
+                            type="color"
+                            id="favorite-color"
+                            name="favorite-color"
+                            value="#1e3a5f"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="website">
+                            Your Website or Portfolio:
+                        </label><br>
+
+                        <input
+                            type="url"
+                            id="website"
+                            name="website"
+                            placeholder="https://example.com"
+                        >
+                    </p>
+                </fieldset>
+
+                <!-- Recommendation -->
+                <fieldset>
+                    <legend>Final Question</legend>
+
+                    <p>
+                        Would you recommend Casmir Codes to another
+                        person learning frontend development?
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="recommend-yes"
+                            name="recommend"
+                            value="yes"
+                            required
+                        >
+                        <label for="recommend-yes">Yes</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="recommend-no"
+                            name="recommend"
+                            value="no"
+                        >
+                        <label for="recommend-no">No</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="recommend-maybe"
+                            name="recommend"
+                            value="maybe"
+                        >
+                        <label for="recommend-maybe">Maybe</label>
+                    </p>
+                </fieldset>
+
+                <button type="submit">
+                    Submit Feedback
+                </button>
+
+                <button type="reset">
+                    Clear Form
+                </button>
+
+            </form>
+        </section>
+
+        <section id="about">
+            <h2>Why Your Feedback Matters</h2>
+
+            <p>
+                Feedback helps identify what works, what needs
+                improvement, and what users actually need.
+            </p>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>
+            &copy; 2026 Casmir Codes. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
