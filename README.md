@@ -57,9 +57,9 @@ The purpose is simple:
 | 08 | Media Page | Completed |
 | 09 | Survey Portal | Completed |
 | 10 | Portfolio Outline | Completed |
-| 11 | Conference Landing Page | ⏳ Upcoming |
-| 12 | Job Board | ⏳ Upcoming |
-| 13 | Restaurant Menu | ⏳ Upcoming |
+| 11 | Conference Landing Page | Completed |
+| 12 | Job Board | Completed |
+| 13 | Restaurant Menu | Completed |
 | 14 | FAQ Page | ⏳ Upcoming |
 | 15 | Blog Reader | ⏳ Upcoming |
 | 16 | Link-in-Bio Page | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**10 / 30**
+**13 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**10 / 90 projects completed**
+**13 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
