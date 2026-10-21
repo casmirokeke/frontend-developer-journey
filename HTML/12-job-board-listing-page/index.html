@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Casmir Jobs — Frontend development and technology job listings."
+    >
+
+    <title>Casmir Jobs | Developer Job Board</title>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <h1>Casmir Jobs</h1>
+
+        <p>
+            Find your next opportunity in technology.
+        </p>
+
+        <nav aria-label="Main navigation">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ================= SEARCH ================= -->
+        <section id="jobs">
+
+            <header>
+                <h2>Find Your Next Job</h2>
+            </header>
+
+            <form action="#" method="get">
+
+                <p>
+                    <label for="search">
+                        Search jobs:
+                    </label><br>
+
+                    <input
+                        type="search"
+                        id="search"
+                        name="search"
+                        placeholder="e.g. Frontend Developer"
+                    >
+                </p>
+
+
+                <p>
+                    <label for="location">
+                        Location:
+                    </label><br>
+
+                    <input
+                        type="search"
+                        id="location"
+                        name="location"
+                        placeholder="e.g. Lagos"
+                    >
+                </p>
+
+                <button type="submit">
+                    Search Jobs
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================= FILTERS ================= -->
+        <aside>
+
+            <h2>Filter Jobs</h2>
+
+            <!-- Job Type -->
+            <details open>
+
+                <summary>
+                    Job Type
+                </summary>
+
+                <fieldset>
+
+                    <legend>
+                        Select job type
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="full-time"
+                            name="job-type"
+                            value="full-time"
+                        >
+
+                        <label for="full-time">
+                            Full-time
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="part-time"
+                            name="job-type"
+                            value="part-time"
+                        >
+
+                        <label for="part-time">
+                            Part-time
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="contract"
+                            name="job-type"
+                            value="contract"
+                        >
+
+                        <label for="contract">
+                            Contract
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="internship"
+                            name="job-type"
+                            value="internship"
+                        >
+
+                        <label for="internship">
+                            Internship
+                        </label>
+                    </p>
+
+                </fieldset>
+
+            </details>
+
+
+            <!-- Experience -->
+            <details>
+
+                <summary>
+                    Experience Level
+                </summary>
+
+                <fieldset>
+
+                    <legend>
+                        Select experience level
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="entry"
+                            name="experience"
+                            value="entry"
+                        >
+
+                        <label for="entry">
+                            Entry Level
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="mid"
+                            name="experience"
+                            value="mid"
+                        >
+
+                        <label for="mid">
+                            Mid Level
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="senior"
+                            name="experience"
+                            value="senior"
+                        >
+
+                        <label for="senior">
+                            Senior Level
+                        </label>
+                    </p>
+
+                </fieldset>
+
+            </details>
+
+
+            <!-- Work Location -->
+            <details>
+
+                <summary>
+                    Work Location
+                </summary>
+
+                <fieldset>
+
+                    <legend>
+                        Select work arrangement
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="remote"
+                            name="location-type"
+                            value="remote"
+                        >
+
+                        <label for="remote">
+                            Remote
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="hybrid"
+                            name="location-type"
+                            value="hybrid"
+                        >
+
+                        <label for="hybrid">
+                            Hybrid
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="onsite"
+                            name="location-type"
+                            value="onsite"
+                        >
+
+                        <label for="onsite">
+                            On-site
+                        </label>
+                    </p>
+
+                </fieldset>
+
+            </details>
+
+
+            <!-- Salary -->
+            <details>
+
+                <summary>
+                    Salary Range
+                </summary>
+
+                <fieldset>
+
+                    <legend>
+                        Select salary range
+                    </legend>
+
+                    <p>
+                        <label for="salary">
+                            Minimum salary:
+                        </label><br>
+
+                        <input
+                            type="number"
+                            id="salary"
+                            name="salary"
+                            min="0"
+                            step="1000"
+                            placeholder="50000"
+                        >
+                    </p>
+
+                </fieldset>
+
+            </details>
+
+        </aside>
+
+
+        <!-- ================= JOB RESULTS ================= -->
+        <section>
+
+            <header>
+
+                <h2>Latest Jobs</h2>
+
+                <p>
+                    Showing available technology opportunities.
+                </p>
+
+            </header>
+
+
+            <!-- Job 1 -->
+            <article>
+
+                <header>
+
+                    <h3>
+                        Junior Frontend Developer
+                    </h3>
+
+                    <p>
+                        TechNova Solutions
+                    </p>
+
+                </header>
+
+                <p>
+                    Lagos, Nigeria · Remote</p>
+
+                <p>
+                    We are looking for a junior frontend developer
+                    to help build responsive and accessible web
+                    interfaces.
+                </p>
+
+                <p>
+                    <strong>Job Type:</strong> Full-time
+                </p>
+
+                <p>
+                    <strong>Experience:</strong> Entry Level
+                </p>
+
+                <a href="#">
+                    View Job
+                </a>
+
+            </article>
+
+
+            <!-- Job 2 -->
+            <article>
+
+                <header>
+
+                    <h3>
+                        Frontend Developer
+                    </h3>
+
+                    <p>
+                        DigitalWorks Africa
+                    </p>
+
+                </header>
+
+                <p>
+                    Abuja, Nigeria · Hybrid
+                </p>
+
+                <p>
+                    Join our development team to create modern
+                    digital experiences for businesses across Africa.
+                </p>
+
+                <p>
+                    <strong>Job Type:</strong> Full-time
+                </p>
+
+                <p>
+                    <strong>Experience:</strong> Mid Level
+                </p>
+
+                <a href="#">
+                    View Job
+                </a>
+
+            </article>
+
+
+            <!-- Job 3 -->
+            <article>
+
+                <header>
+
+                    <h3>
+                        Web Developer Intern
+                    </h3>
+
+                    <p>
+                        CodeBase Academy
+                    </p>
+
+                </header>
+
+                <p>
+                    Remote · Nigeria
+                </p>
+
+                <p>
+                    An internship opportunity for developers
+                    looking to gain practical experience building
+                    websites.
+                </p>
+
+                <p>
+                    <strong>Job Type:</strong> Internship
+                </p>
+
+                <p>
+                    <strong>Experience:</strong> Entry Level
+                </p>
+
+                <a href="#">
+                    View Job
+                </a>
+
+            </article>
+
+
+            <!-- Job 4 -->
+            <article>
+
+                <header>
+
+                    <h3>
+                        Senior Web Developer
+                    </h3>
+
+                    <p>
+                        FutureTech
+                    </p>
+
+                </header>
+
+                <p>
+                    Lagos, Nigeria · On-site
+                </p>
+
+                <p>
+                    Lead the development of scalable web applications
+                    and mentor other developers on the engineering team.
+                </p>
+
+                <p>
+                    <strong>Job Type:</strong> Full-time
+                </p>
+
+                <p>
+                    <strong>Experience:</strong> Senior Level
+                </p>
+
+                <a href="#">
+                    View Job
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= COMPANIES ================= -->
+        <section id="companies">
+
+            <header>
+                <h2>Featured Companies</h2>
+            </header>
+
+            <ul>
+                <li>TechNova Solutions</li>
+                <li>DigitalWorks Africa</li>
+                <li>CodeBase Academy</li>
+                <li>FutureTech</li>
+            </ul>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about">
+
+            <header>
+                <h2>About Casmir Jobs</h2>
+            </header>
+
+            <p>
+                Casmir Jobs is a simple job board concept designed
+                to connect developers and technology professionals
+                with career opportunities.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p>
+            &copy; 2026 Casmir Jobs. All rights reserved.
+        </p>
+
+        <nav aria-label="Footer navigation">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
