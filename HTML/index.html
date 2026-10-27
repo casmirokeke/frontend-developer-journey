@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Casmir Codes interactive search form using HTML datalist."
+    >
+
+    <title>Search | Casmir Codes</title>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Find Your Next Learning Topic</h1>
+
+        <p>
+            Search for a frontend development topic using the
+            suggestions provided below.
+        </p>
+    </header>
+
+
+    <main>
+
+        <!-- Search Form -->
+        <section aria-labelledby="search-heading">
+
+            <h2 id="search-heading">Search Topics</h2>
+
+            <form action="#" method="get">
+
+                <label for="topic">
+                    What do you want to learn?
+                </label>
+
+                <input
+                    type="search"
+                    id="topic"
+                    name="topic"
+                    list="frontend-topics"
+                    placeholder="Start typing..."
+                    autocomplete="off"
+                    required
+                >
+
+                <datalist id="frontend-topics">
+
+                    <option value="HTML">
+                    <option value="Semantic HTML">
+                    <option value="HTML Forms">
+                    <option value="HTML Tables">
+                    <option value="HTML Accessibility">
+
+                    <option value="CSS">
+                    <option value="CSS Flexbox">
+                    <option value="CSS Grid">
+                    <option value="CSS Animations">
+                    <option value="CSS Responsive Design">
+
+                    <option value="JavaScript">
+                    <option value="JavaScript Arrays">
+                    <option value="JavaScript Functions">
+                    <option value="JavaScript DOM">
+                    <option value="JavaScript Events">
+
+                </datalist>
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Category Search -->
+        <section aria-labelledby="category-heading">
+
+            <h2 id="category-heading">Search by Category</h2>
+
+            <form action="#" method="get">
+
+                <label for="category">
+                    Choose a category:
+                </label>
+
+                <input
+                    type="text"
+                    id="category"
+                    name="category"
+                    list="categories"
+                    placeholder="HTML, CSS or JavaScript"
+                    required
+                >
+
+                <datalist id="categories">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                    <option value="Accessibility">
+                    <option value="Web Design">
+                    <option value="Frontend Development">
+                </datalist>
+
+                <button type="submit">
+                    Explore Category
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Resource Search -->
+        <section aria-labelledby="resource-heading">
+
+            <h2 id="resource-heading">
+                Find a Learning Resource
+            </h2>
+
+            <form action="#" method="get">
+
+                <label for="resource">
+                    Search resources:
+                </label>
+
+                <input
+                    type="text"
+                    id="resource"
+                    name="resource"
+                    list="resources"
+                    placeholder="Search resources..."
+                >
+
+                <datalist id="resources">
+
+                    <option value="HTML Documentation">
+                    <option value="CSS Documentation">
+                    <option value="JavaScript Documentation">
+                    <option value="Frontend Projects">
+                    <option value="Coding Challenges">
+                    <option value="Accessibility Guide">
+
+                </datalist>
+
+                <button type="submit">
+                    Find Resource
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Explanation -->
+        <section aria-labelledby="how-heading">
+
+            <h2 id="how-heading">How It Works</h2>
+
+            <p>
+                Start typing inside one of the input fields. Your browser
+                can display matching suggestions from the associated
+                <code>&lt;datalist&gt;</code>.
+            </p>
+
+            <p>
+                This functionality is provided by HTML itself, so no
+                JavaScript autocomplete library is required.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Casmir Codes. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
