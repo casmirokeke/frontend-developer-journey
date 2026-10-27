@@ -65,7 +65,7 @@ The purpose is simple:
 | 16 | Link-in-Bio Page | Completed |
 | 17 | SaaS Pricing Page | Completed |
 | 18 | Datalist Form | Completed |
-| 19 | Terms & Conditions Page | ⏳ Upcoming |
+| 19 | Terms & Conditions Page | Completed |
 | 20 | App Download Page | ⏳ Upcoming |
 | 21 | Email Table Layout | ⏳ Upcoming |
 | 22 | Settings Dashboard | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**18 / 30**
+**19 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**18 / 90 projects completed**
+**19 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
