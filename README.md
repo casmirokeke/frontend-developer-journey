@@ -63,7 +63,7 @@ The purpose is simple:
 | 14 | FAQ Page | Completed |
 | 15 | Blog Reader | Completed |
 | 16 | Link-in-Bio Page | Completed |
-| 17 | SaaS Pricing Page | ⏳ Upcoming |
+| 17 | SaaS Pricing Page | Completed |
 | 18 | Datalist Form | ⏳ Upcoming |
 | 19 | Terms & Conditions Page | ⏳ Upcoming |
 | 20 | App Download Page | ⏳ Upcoming |
