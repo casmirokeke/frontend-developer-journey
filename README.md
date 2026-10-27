@@ -60,8 +60,8 @@ The purpose is simple:
 | 11 | Conference Landing Page | Completed |
 | 12 | Job Board | Completed |
 | 13 | Restaurant Menu | Completed |
-| 14 | FAQ Page | ⏳ Upcoming |
-| 15 | Blog Reader | ⏳ Upcoming |
+| 14 | FAQ Page | Completed |
+| 15 | Blog Reader | Completed |
 | 16 | Link-in-Bio Page | ⏳ Upcoming |
 | 17 | SaaS Pricing Page | ⏳ Upcoming |
 | 18 | Datalist Form | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**13 / 30**
+**15 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**13 / 90 projects completed**
+**15 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
