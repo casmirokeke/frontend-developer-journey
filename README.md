@@ -62,7 +62,7 @@ The purpose is simple:
 | 13 | Restaurant Menu | Completed |
 | 14 | FAQ Page | Completed |
 | 15 | Blog Reader | Completed |
-| 16 | Link-in-Bio Page | ⏳ Upcoming |
+| 16 | Link-in-Bio Page | Completed |
 | 17 | SaaS Pricing Page | ⏳ Upcoming |
 | 18 | Datalist Form | ⏳ Upcoming |
 | 19 | Terms & Conditions Page | ⏳ Upcoming |
