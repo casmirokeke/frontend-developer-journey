@@ -67,7 +67,7 @@ The purpose is simple:
 | 18 | Datalist Form | Completed |
 | 19 | Terms & Conditions Page | Completed |
 | 20 | App Download Page | Completed |
-| 21 | Email Table Layout | ⏳ Upcoming |
+| 21 | Email Table Layout | Completed |
 | 22 | Settings Dashboard | ⏳ Upcoming |
 | 23 | Real Estate Listing | ⏳ Upcoming |
 | 24 | Poll Interface | ⏳ Upcoming |
