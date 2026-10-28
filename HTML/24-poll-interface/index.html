@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Interactive frontend development poll built with semantic HTML."
+    >
+
+    <title>Frontend Poll | Casmir Codes</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Casmir Codes</h1>
+
+        <p>
+            Frontend Development Community Poll
+        </p>
+
+        <nav aria-label="Main navigation">
+            <a href="#poll">Vote</a>
+            <a href="#results">Results</a>
+            <a href="#metrics">Metrics</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- Poll -->
+        <section
+            id="poll"
+            aria-labelledby="poll-heading"
+        >
+
+            <h2 id="poll-heading">
+                Which Frontend Skill Are You Currently Learning?
+            </h2>
+
+            <p>
+                Choose one option below and submit your vote.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Select your answer
+                    </legend>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="html"
+                            name="frontend-skill"
+                            value="html"
+                            required
+                        >
+
+                        <label for="html">
+                            HTML
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="css"
+                            name="frontend-skill"
+                            value="css"
+                        >
+
+                        <label for="css">
+                            CSS
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="javascript"
+                            name="frontend-skill"
+                            value="javascript"
+                        >
+
+                        <label for="javascript">
+                            JavaScript
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="other"
+                            name="frontend-skill"
+                            value="other"
+                        >
+
+                        <label for="other">
+                            Other
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Submit Vote
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Poll Results -->
+        <section
+            id="results"
+            aria-labelledby="results-heading"
+        >
+
+            <h2 id="results-heading">
+                Current Poll Results
+            </h2>
+
+            <p>
+                HTML — 45 votes
+            </p>
+
+            <progress
+                value="45"
+                max="100"
+            >
+                45%
+            </progress>
+
+            <p>
+                45%
+            </p>
+
+            <p>
+                CSS — 30 votes
+            </p>
+
+            <progress
+                value="30"
+                max="100"
+            >
+                30%
+            </progress>
+
+            <p>
+                30%
+            </p>
+
+            <p>
+                JavaScript — 20 votes
+            </p>
+
+            <progress
+                value="20"
+                max="100"
+            >
+                20%
+            </progress>
+
+            <p>
+                20%
+            </p>
+
+            <p>
+                Other — 5 votes
+            </p>
+
+            <progress
+                value="5"
+                max="100"
+            >
+                5%
+            </progress>
+
+            <p>
+                5%
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Poll Summary -->
+        <section
+            aria-labelledby="summary-heading"
+        >
+
+            <h2 id="summary-heading">
+                Poll Summary
+            </h2>
+
+            <dl>
+
+                <dt>Total Votes</dt>
+                <dd>100</dd>
+
+                <dt>Most Popular Choice</dt>
+                <dd>HTML</dd>
+
+                <dt>Participation Rate</dt>
+                <dd>
+                    <meter
+                        min="0"
+                        max="100"
+                        value="72"
+                    >
+                        72%
+                    </meter>
+                    72%
+                </dd>
+
+            </dl>
+
+        </section>
+
+        <hr>
+
+        <!-- Additional Metrics -->
+        <section
+            id="metrics"
+            aria-labelledby="metrics-heading"
+        >
+
+            <h2 id="metrics-heading">
+                Community Metrics
+            </h2>
+
+            <p>
+                Poll completion:
+            </p>
+
+            <progress
+                value="72"
+                max="100"
+            >
+                72%
+            </progress>
+
+            <p>
+                72% of the expected participants have voted.
+            </p>
+
+            <p>
+                Community engagement:
+            </p>
+
+            <meter
+                min="0"
+                max="100"
+                low="30"
+                high="70"
+                optimum="90"
+                value="82"
+            >
+                82%
+            </meter>
+
+            <p>
+                Current engagement score: 82%.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Poll Information -->
+        <section
+            aria-labelledby="information-heading"
+        >
+
+            <h2 id="information-heading">
+                About This Poll
+            </h2>
+
+            <p>
+                This poll is designed to demonstrate how native HTML
+                elements can be used to collect choices and represent
+                numerical information.
+            </p>
+
+            <p>
+                The displayed results are example values for this
+                learning project.
+            </p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Casmir Codes. All rights reserved.
+        </p>
+
+        <p>
+            <a href="#poll">
+                Back to poll
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
