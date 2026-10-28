@@ -66,7 +66,7 @@ The purpose is simple:
 | 17 | SaaS Pricing Page | Completed |
 | 18 | Datalist Form | Completed |
 | 19 | Terms & Conditions Page | Completed |
-| 20 | App Download Page | ⏳ Upcoming |
+| 20 | App Download Page | Completed |
 | 21 | Email Table Layout | ⏳ Upcoming |
 | 22 | Settings Dashboard | ⏳ Upcoming |
 | 23 | Real Estate Listing | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**19 / 30**
+**20 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**19 / 90 projects completed**
+**20 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
