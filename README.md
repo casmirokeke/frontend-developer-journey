@@ -69,7 +69,7 @@ The purpose is simple:
 | 20 | App Download Page | Completed |
 | 21 | Email Table Layout | Completed |
 | 22 | Settings Dashboard | Completed |
-| 23 | Real Estate Listing | ⏳ Upcoming |
+| 23 | Real Estate Listing | Completed |
 | 24 | Poll Interface | ⏳ Upcoming |
 | 25 | Quiz Page | ⏳ Upcoming |
 | 26 | Podcast Directory | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**22 / 30**
+**23 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**22 / 90 projects completed**
+**23 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
