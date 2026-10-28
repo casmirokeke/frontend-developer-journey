@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Online HTML quiz question layout built with semantic HTML."
+    >
+
+    <title>Frontend Quiz | Casmir Codes</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Casmir Codes Quiz</h1>
+
+        <p>
+            Test your frontend development knowledge.
+        </p>
+
+        <nav aria-label="Quiz navigation">
+            <a href="#question">Question</a>
+            <a href="#progress">Progress</a>
+            <a href="#instructions">Instructions</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- Quiz Progress -->
+        <section
+            id="progress"
+            aria-labelledby="progress-heading"
+        >
+
+            <h2 id="progress-heading">
+                Quiz Progress
+            </h2>
+
+            <p>
+                Question 3 of 10
+            </p>
+
+            <meter
+                min="0"
+                max="10"
+                value="3"
+            >
+                3 out of 10
+            </meter>
+
+            <p>
+                30% complete
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Quiz Question -->
+        <section
+            id="question"
+            aria-labelledby="question-heading"
+        >
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend id="question-heading">
+                        Question 3: Which HTML element is used
+                        to create a hyperlink?
+                    </legend>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="option-a"
+                            name="answer"
+                            value="a"
+                            required
+                        >
+
+                        <label for="option-a">
+                            A. &lt;link&gt;
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="option-b"
+                            name="answer"
+                            value="b"
+                        >
+
+                        <label for="option-b">
+                            B. &lt;a&gt;
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="option-c"
+                            name="answer"
+                            value="c"
+                        >
+
+                        <label for="option-c">
+                            C. &lt;href&gt;
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="option-d"
+                            name="answer"
+                            value="d"
+                        >
+
+                        <label for="option-d">
+                            D. &lt;url&gt;
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Submit Answer
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Quiz Instructions -->
+        <section
+            id="instructions"
+            aria-labelledby="instructions-heading"
+        >
+
+            <h2 id="instructions-heading">
+                Quiz Instructions
+            </h2>
+
+            <ol>
+                <li>Read each question carefully.</li>
+                <li>Select one answer.</li>
+                <li>Submit your answer.</li>
+                <li>Review your result.</li>
+                <li>Continue to the next question.</li>
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <!-- Quiz Information -->
+        <aside aria-labelledby="info-heading">
+
+            <h2 id="info-heading">
+                Quiz Information
+            </h2>
+
+            <dl>
+
+                <dt>Total Questions</dt>
+                <dd>10</dd>
+
+                <dt>Current Question</dt>
+                <dd>3</dd>
+
+                <dt>Time Allowed</dt>
+                <dd>10 minutes</dd>
+
+                <dt>Difficulty</dt>
+                <dd>Beginner</dd>
+
+            </dl>
+
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Casmir Codes. All rights reserved.
+        </p>
+
+        <p>
+            <a href="#question">
+                Back to question
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

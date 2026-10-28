@@ -71,7 +71,7 @@ The purpose is simple:
 | 22 | Settings Dashboard | Completed |
 | 23 | Real Estate Listing | Completed |
 | 24 | Poll Interface | Completed |
-| 25 | Quiz Page | ⏳ Upcoming |
+| 25 | Quiz Page | Completed |
 | 26 | Podcast Directory | ⏳ Upcoming |
 | 27 | Testimonial Grid | ⏳ Upcoming |
 | 28 | Multi-Step Form | ⏳ Upcoming |
