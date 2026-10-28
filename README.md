@@ -73,7 +73,7 @@ The purpose is simple:
 | 24 | Poll Interface | Completed |
 | 25 | Quiz Page | Completed |
 | 26 | Podcast Directory | Completed |
-| 27 | Testimonial Grid | ⏳ Upcoming |
+| 27 | Testimonial Grid | Completed |
 | 28 | Multi-Step Form | ⏳ Upcoming |
 | 29 | Search Interface | ⏳ Upcoming |
 | 30 | Portfolio Capstone Wireframe | ⏳ Upcoming |
