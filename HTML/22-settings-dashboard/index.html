@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="User settings dashboard built with semantic HTML."
+    >
+
+    <title>User Settings | Casmir Codes</title>
+</head>
+
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <h1>Account Settings</h1>
+
+        <p>
+            Manage your account, preferences, and notifications.
+        </p>
+
+        <!-- Tab-like Navigation -->
+        <nav aria-label="Settings navigation">
+            <ul>
+                <li>
+                    <a href="#account">Account</a>
+                </li>
+
+                <li>
+                    <a href="#profile">Profile</a>
+                </li>
+
+                <li>
+                    <a href="#notifications">Notifications</a>
+                </li>
+
+                <li>
+                    <a href="#privacy">Privacy</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Settings Area -->
+    <main>
+
+        <!-- Account Settings -->
+        <section
+            id="account"
+            aria-labelledby="account-heading"
+        >
+
+            <h2 id="account-heading">
+                Account Information
+            </h2>
+
+            <p>
+                Update your basic account information.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Personal Information
+                    </legend>
+
+                    <p>
+                        <label for="first-name">
+                            First Name
+                        </label>
+                        <br>
+
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            value="Casmir"
+                            autocomplete="given-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="last-name">
+                            Last Name
+                        </label>
+                        <br>
+
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            value="Okeke"
+                            autocomplete="family-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">
+                            Email Address
+                        </label>
+                        <br>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="phone">
+                            Phone Number
+                        </label>
+                        <br>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+234 800 000 0000"
+                            autocomplete="tel"
+                        >
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Save Changes
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Profile Settings -->
+        <section
+            id="profile"
+            aria-labelledby="profile-heading"
+        >
+
+            <h2 id="profile-heading">
+                Profile Settings
+            </h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Public Profile
+                    </legend>
+
+                    <p>
+                        <label for="username">
+                            Username
+                        </label>
+                        <br>
+
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            value="casmircodes"
+                            autocomplete="username"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="website">
+                            Website
+                        </label>
+                        <br>
+
+                        <input
+                            type="url"
+                            id="website"
+                            name="website"
+                            placeholder="https://example.com"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="bio">
+                            Bio
+                        </label>
+                        <br>
+
+                        <textarea
+                            id="bio"
+                            name="bio"
+                            rows="5"
+                            cols="40"
+                            maxlength="160"
+                        >Frontend Developer building modern web experiences.</textarea>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Update Profile
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Notification Settings -->
+        <section
+            id="notifications"
+            aria-labelledby="notification-heading"
+        >
+
+            <h2 id="notification-heading">
+                Notification Settings
+            </h2>
+
+            <p>
+                Choose which notifications you want to receive.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Email Notifications
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="newsletter"
+                            name="newsletter"
+                            checked
+                        >
+
+                        <label for="newsletter">
+                            Receive newsletter updates
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="product-updates"
+                            name="product-updates"
+                            checked
+                        >
+
+                        <label for="product-updates">
+                            Receive product updates
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="security-alerts"
+                            name="security-alerts"
+                            checked
+                        >
+
+                        <label for="security-alerts">
+                            Receive security alerts
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+
+                    <legend>
+                        Push Notifications
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="push-notifications"
+                            name="push-notifications"
+                        >
+
+                        <label for="push-notifications">
+                            Enable push notifications
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="marketing"
+                            name="marketing"
+                        >
+
+                        <label for="marketing">
+                            Receive promotional notifications
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Save Notification Settings
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Privacy Settings -->
+        <section
+            id="privacy"
+            aria-labelledby="privacy-heading"
+        >
+
+            <h2 id="privacy-heading">
+                Privacy Settings
+            </h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Privacy Preferences
+                    </legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="profile-visibility"
+                            name="profile-visibility"
+                            checked
+                        >
+
+                        <label for="profile-visibility">
+                            Make my profile visible to other users
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="activity-status"
+                            name="activity-status"
+                        >
+
+                        <label for="activity-status">
+                            Show my online activity status
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="personalization"
+                            name="personalization"
+                            checked
+                        >
+
+                        <label for="personalization">
+                            Allow personalized recommendations
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Save Privacy Settings
+                </button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Password Section -->
+        <section aria-labelledby="password-heading">
+
+            <h2 id="password-heading">
+                Change Password
+            </h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Password Information
+                    </legend>
+
+                    <p>
+                        <label for="current-password">
+                            Current Password
+                        </label>
+                        <br>
+
+                        <input
+                            type="password"
+                            id="current-password"
+                            name="current-password"
+                            autocomplete="current-password"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="new-password">
+                            New Password
+                        </label>
+                        <br>
+
+                        <input
+                            type="password"
+                            id="new-password"
+                            name="new-password"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="confirm-password">
+                            Confirm New Password
+                        </label>
+                        <br>
+
+                        <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm-password"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required
+                        >
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">
+                    Change Password
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 Casmir Codes. All rights reserved.
+        </p>
+
+        <p>
+            <a href="#account">
+                Back to settings
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

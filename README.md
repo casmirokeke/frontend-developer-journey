@@ -68,7 +68,7 @@ The purpose is simple:
 | 19 | Terms & Conditions Page | Completed |
 | 20 | App Download Page | Completed |
 | 21 | Email Table Layout | Completed |
-| 22 | Settings Dashboard | ⏳ Upcoming |
+| 22 | Settings Dashboard | Completed |
 | 23 | Real Estate Listing | ⏳ Upcoming |
 | 24 | Poll Interface | ⏳ Upcoming |
 | 25 | Quiz Page | ⏳ Upcoming |
@@ -162,7 +162,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### HTML
 
-**20 / 30**
+**22 / 30**
 
 `░░░░░░░░░░░░░░░░░░░`
 
@@ -180,7 +180,7 @@ The JavaScript section focuses on programming fundamentals, data structures, DOM
 
 ### Overall Batch 1
 
-**20 / 90 projects completed**
+**22 / 90 projects completed**
 
 > Progress will be updated as each project is completed.
 
